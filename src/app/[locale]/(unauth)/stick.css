@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+ /* padding: 20px;*/
+ width: 1078px;
+}
+
+.contaimain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pantip-main {
+  width: 70%; /* 
+  padding: 20px;*/
+  margin-left: -13px;
+}
+
+.main-tag-hiz {
+  width: 366px; 
+  /*padding: 20px;*/
+  background-color: #f4f4f4;
+  height:1000px;
+  position: sticky;
+  top: 0px; 
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  margin-top:20px
+}
+/*
+.main-tag-hiz h2 {
+  margin-top: 0;
+} */

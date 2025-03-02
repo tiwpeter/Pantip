@@ -1,0 +1,18 @@
+.fontSecod {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.2em;              /* ปรับให้พอเหมาะกับขนาดฟอนต์ */
+  max-height: 2.4em;              /* สูงสุดของกล่องที่สามารถแสดงได้ 2 บรรทัด */
+  width: 229px;
+  -webkit-line-clamp: 2;
+  -webkit-box-align: start;
+  -webkit-box-pack: start;
+}
+
+
+
+p {
+  margin: 0;
+}

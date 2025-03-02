@@ -1,0 +1,79 @@
+/* opo.css */
+.keen-slider {
+  position: relative;
+  display: flex;
+  width: 982px;
+}
+
+.keenIcon-slider__slide {
+  padding: 10px; /* เพิ่ม padding เพื่อให้คอลัมน์ภายใน Grid มีการเว้นระยะห่าง */
+  min-width: 1078px;
+}
+
+.keenIcon-slider__slide {
+  display: grid;
+  grid-template-columns: repeat(9, minmax(42px, 1fr)); /* กำหนดให้มี 4 คอลัมน์ที่มีขนาดไม่น้อยกว่า 250px และเป็น 1fr สำหรับคอลัมน์ที่เหลือ */
+  gap: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.keenIcon-slider__slide div {
+  display: flex;
+  flex-direction: column;
+ /* justify-content: center;*/
+  align-items: center;
+  text-align: center; /* จัดกึ่งกลางแนวนอน */
+  
+}
+
+.keenIcon-slider__slide img {
+  width: 24px;
+  height: 24px;
+}
+
+.keenIcon-slider__slide p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+
+
+
+/**span*/
+.keenIcon-slider__slide p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* จำกัดจำนวนบรรทัดไม่เกิน 2 บรรทัด */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.sw {
+  margin: auto;
+  position: relative;
+}
+
+.slider-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.slider-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.slider-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+

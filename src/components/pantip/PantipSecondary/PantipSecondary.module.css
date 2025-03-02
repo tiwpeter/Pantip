@@ -1,0 +1,106 @@
+/* PantipSecondary.module.css */
+
+/* Main container */
+.container {
+  width: 711px;
+  margin: 0 auto;
+  background: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* List item container */
+.boxslie {
+  display: flex;
+  align-items: start;
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+/* Image styling */
+.IMG {
+  width:86px;
+  height: 64px;    /* กำหนดความสูงเป็น 64px */
+  margin-right: 16px; /* เพิ่มช่องว่างด้านขวา 16px */
+  object-fit: cover; /* ทำให้ภาพเต็มพื้นที่ที่จัดสรรไว้และครอบตัดส่วนที่เกิน */
+}
+/* Item details container */
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100% - 102px); /* Adjust based on image size */
+}
+
+/* Title styling */
+.mainPageTag {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+  margin-top: -7px;
+}
+
+/* Tag links */
+.tag-link {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.tag-link:hover {
+  text-decoration: underline;
+}
+
+/* User and info container */
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.user-info h5 {
+  margin: 0;
+  margin-left: 6px;
+  font-size: 0.875rem;
+}
+
+/* Comments and stats */
+.pt-list-item__stats {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.pt-list-item__stats span {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+}
+
+.pt-list-item__stats svg {
+  font-size: 1rem;
+  margin-right: 8px;
+}
+
+/* Load More Button styling */
+.loadMoreButton {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.loadMoreButton:hover {
+  background-color: #005bb5;
+}
+
+.loadMoreButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

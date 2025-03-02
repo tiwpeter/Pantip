@@ -1,0 +1,21 @@
+.boxing {
+  width: 86px;
+  height: 48px;
+  display: flex;
+  align-items: center; /* จัดตำแหน่งแนวตั้งให้อยู่กลาง */
+  justify-content: center; /* จัดตำแหน่งแนวนอนให้อยู่กลาง */
+  gap: 12px; /* เพิ่มระยะห่างระหว่างรูปภาพ */
+
+  cursor: pointer;
+
+  border-radius: 30px;
+  background-color: #fff;
+  border: 2px solid #eceaff; /* กำหนดสีและขนาดของกรอบ */
+  transition: background-color 0.3s ease, border-color 0.3s ease; /* เพิ่ม transition สำหรับการเปลี่ยนสีของกรอบ */
+}
+
+.boxing:hover {
+  background-color: #f0f0f0; /* สีพื้นหลังเมื่อเอาเมาส์ชี้ */
+  border-color: #d1d1f0; /* สีกรอบเมื่อเอาเมาส์ชี้ */
+  
+}

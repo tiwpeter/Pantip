@@ -1,0 +1,23 @@
+
+.sticky-top {
+  /*background-color: #f0f0f0;*/
+  padding: 10px;
+  width: 1600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto; /* จัดให้อยู่กึ่งกลางแนวนอน */
+  /*margin-top: 105px;*/
+  height: 78px;
+  background: aliceblue;
+}
+/*
+{
+    position: sticky;
+    top: 80px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+
+}*/

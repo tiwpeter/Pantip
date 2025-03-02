@@ -1,0 +1,27 @@
+.bordercuser {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+ /* border-radius: 30px; */
+  background-color: #fff;
+  box-sizing: border-box;
+  border-width: 2px; /* กำหนดความหนาของ border */
+  border-style: solid;
+  border-color: transparent; /* เริ่มต้น border เป็น transparent */
+  transition: border-color 0.3s ease; /* เพิ่ม transition เพื่อให้การเปลี่ยนแปลงเรียบร้อย */
+
+  height: 40px;
+}
+
+.bordercuser:hover {
+  background-color: #e5e7eb;
+ 
+}
+
+.bordercuser:active {
+  border-color: #0056b3; /* เปลี่ยนสี border เมื่อคลิก */
+}
+
+.coloricon{
+  filter: brightness(0) saturate(100%) invert(10%) sepia(18%) saturate(642%) hue-rotate(218deg) brightness(99%) contrast(91%);
+}

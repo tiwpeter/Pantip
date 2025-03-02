@@ -1,0 +1,76 @@
+/* Slider.css */
+
+#main-slider-container {
+  width: 1080px;
+  height: 78px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+#slider-secod {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+#slider-secod::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-card-secod {
+  height: 285px;
+  border-radius: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px; /* Adjust as needed */
+  margin-right: 20px; /* Adjust as needed */
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease; /* Smooth transform effect */
+}
+
+
+
+
+.slider-card-title {
+  font-weight: 500;
+  margin-top: 5px; /* Reduced margin for better centering */
+}
+
+.slider-card-description {
+  opacity: 0.5;
+  font-size: 13px;
+}
+
+
+
+.slider-icon-secod.left, .slider-icon-secod.right {
+  background: white;
+  border-radius: 100%;
+  position: absolute;
+  opacity: 0.5;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  z-index: 3; /* Ensure slider icons are above other content */
+}
+
+.slider-icon-secod.left {
+  left: 0;
+  top: 108px;
+}
+
+.slider-icon-secod.right  {
+  right: 0;
+  top: 108px;
+}
+
+.slider-icon-secod.left:hover, .slider-icon-secod.right:hover {
+  opacity: 1;
+}

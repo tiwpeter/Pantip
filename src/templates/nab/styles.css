@@ -1,0 +1,40 @@
+.centered1 {
+  position: absolute;
+  z-index: 12;
+  /*visibility: hidden;*/
+  right: 184px;
+  
+
+
+}
+.centered {
+  position: absolute;
+  right: 0px;
+}
+
+
+
+.copcentered {
+  position: absolute;
+  right: 425px;
+  top: 100px;
+}
+/*slie*/
+
+.cop{
+  width: 850px;
+  height: 66px;
+}
+
+.cop{
+  width: 850px;
+  height: 66px;
+}
+/*
+369px cop
+
+
+
+
+
+/*369px**/

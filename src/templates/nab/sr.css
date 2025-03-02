@@ -1,0 +1,48 @@
+.cop, .cop1 {
+  transition: all 0.5s ease;
+}
+.cop {
+  width: 284px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  position: absolute;
+  top: -100px;
+}
+.cop1 {
+  width: 1000px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+}
+.hidden {
+  opacity: 0;
+  top: -155px;
+}
+.visible {
+  opacity: 1;
+  top: 0px;
+ right: -82px;
+}
+
+nav {
+position: sticky;
+top: 0;
+background: white; /* เพิ่มพื้นหลังเพื่อให้ดูเด่นชัด */
+z-index: 10; /* ปรับให้สูงขึ้นหากต้องการให้ลอยอยู่ด้านบน */
+}
+
+.gap-x-5 {
+column-gap: 13.25rem;
+}
+
+.boxslie{
+--tw-border-opacity: 1;
+box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
+}

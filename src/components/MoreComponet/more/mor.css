@@ -1,0 +1,18 @@
+/* ในไฟล์ CSS */
+.load-more-buttonF {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 711px;
+  }
+  
+  .load-more-buttonF:hover {
+    background-color: #0056b3;
+  }
+  
+
+

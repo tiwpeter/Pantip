@@ -1,0 +1,34 @@
+
+
+/***/
+
+
+.sliecolor::before,
+.sliecolor::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 15%;
+  z-index: 1; /* Ensures it is below the icons */
+  top: 0;
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+  opacity: 1;
+  transition: opacity 0.3s ease; /* Smooth transition for fading */
+}
+
+.sliecolor.hidden-left::before {
+  opacity: 0; /* Hide gradient on the left */
+}
+
+.sliecolor.hidden-right::after {
+  opacity: 0; /* Hide gradient on the right */
+}
+
+.sliecolor::before {
+  left: 0;
+}
+
+.sliecolor::after {
+  right: 0;
+  background: linear-gradient(to left, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+}

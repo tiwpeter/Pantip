@@ -1,0 +1,33 @@
+.lele{
+    height: 24px;
+    margin-left: 20px;
+
+}
+
+.xxx2{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45px;
+   box-shadow:  0 1px 0px rgba(0, 0, 0, 0.1);
+
+
+   
+   
+  }
+
+  .xxx2:hover {
+    cursor: pointer;
+    background-color: #f0f0f0; /* เพิ่มสีพื้นหลังเมื่อ hover */
+    color: #333; /* เพิ่มสีของตัวอักษรเมื่อ hover */
+}
+
+     /*  border-bottom: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  /*   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เพิ่มเงาด้านล่าง 
+
+
+/*0: ไม่มีเงาในแนวนอน
+2px: เงาในแนวดิ่งของ 2px
+4px: ความทึบของเงา 4px
+rgba(0, 0, 0, 0.1): สีของเงาที่เป็นสีดำทึบ 10%*/

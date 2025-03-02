@@ -1,0 +1,18 @@
+.slider-card.active {
+  text-decoration: underline;
+  color: gray; /* adjust text  gray color */
+  text-underline-offset: 1em; /* เปลี่ยนขนาดระยะห่าง 0.2em ระหว่างขีดเส้นใต้และข้อความ */
+  text-decoration-thickness: 2px; /* เปลี่ยนความหนาของขีดเส้นใต้ */
+}
+.slider-card.active:hover {
+  border-bottom-color: #888; /* สีเทาของขีดข้างล่าง */
+}
+
+.slider-icon.left:hover, .slider-icon.right:hover {
+  opacity: 1;
+}
+
+/**z-link*/
+.slider-card{
+  z-index: 3;
+}

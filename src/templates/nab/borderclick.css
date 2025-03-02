@@ -1,0 +1,80 @@
+/*main
+.cop {
+    width: 284px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    display: none;
+}
+    */
+/*shadow border*/
+.cop{
+    border-radius: 32px;
+    border: 1px solid #eceaff;
+    /*nothave  var(--linaria-theme_palette-deco);*/
+/*shodow*/
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.08);
+}
+
+/*main
+.cop1{
+    width: 850px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+    
+}
+    */
+/*shadow border*/
+.cop1{
+    border-radius: 32px;
+    border: 1px solid #eceaff;
+    /*nothave  var(--linaria-theme_palette-deco);*/
+/*shodow*/
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.08);
+}
+
+
+
+
+
+.borderkick {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px; /* ความโค้งของกรอบ */
+ /*   background-color: #fff;  สีพื้นหลังเทา */
+    transition: background-color 0.3s ease; /* เพิ่ม transition เพื่อทำให้การเปลี่ยนสีเรียบขึ้น */
+}
+
+.borderkick1 {
+    width: 140px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px; /* ความโค้งของกรอบ */
+    transition: background-color 0.3s ease; /* เพิ่ม transition เพื่อทำให้การเปลี่ยนสีเรียบขึ้น */
+}
+
+.borderkick:hover, .borderkick:active {
+    background-color: #eceaff; /* เปลี่ยนสีเมื่อโฮเวอร์หรือคลิก */
+}
+
+.borderkick1:hover, .borderkick1:active {
+    background-color: #eceaff; /* เปลี่ยนสีเมื่อโฮเวอร์หรือคลิก */
+}
+
+.borderkick:hover, .borderkick:active {
+    background-color: #eceaff; /* เปลี่ยนสีเมื่อโฮเวอร์หรือคลิก */
+}
+
+.borderkick:hover, .borderkick:active {
+    background-color: #eceaff; /* เปลี่ยนสีเมื่อโฮเวอร์หรือคลิก */
+}

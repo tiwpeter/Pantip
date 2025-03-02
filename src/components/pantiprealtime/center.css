@@ -1,0 +1,8 @@
+.copmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  min-height: 100vh; /* Full viewport height to center vertically on the page */
+  width: 1078px;
+}
